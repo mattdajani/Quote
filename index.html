@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Random Quote Generator</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="quoteScript.js" async></script>
+        <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+        <link href="quote.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+            <h1 class="text-center">Random Quote Generator</h1>
+            </div>
+            
+            <div class="row">
+                <blockquote>
+                    <span class="message" id="twitterMessage"></span>
+                </blockquote>
+            </div>
+            
+            <div class="row text-center">
+                <button class="btn" id="getQuote">Generate Quote</button>
+                <button class="btn" onclick="tweetIt()">Tweet</button>
+            </div>
+        <div class="row">    
+            <footer class="bottom-footer"><p class="text-center">Created by Matthew Dajani.</p></footer>
+            </div>
+        </div>
+    </body>
+</html>
