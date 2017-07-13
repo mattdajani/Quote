@@ -1,3 +1,6 @@
+// Post random quotes on button click, tweet specific quote on button click
+// Using JQuery
+
 function randomGenerator() {
     var MAX = 16, MIN = 1;
     return Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
